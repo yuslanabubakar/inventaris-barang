@@ -1,0 +1,18 @@
+{
+  "name": "inventaris-barang",
+  "version": "1.0.0",
+  "description": "latihan aplikasi inventaris",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "bushli",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.19",
+    "nodemon": "^2.0.7"
+  }
+}
