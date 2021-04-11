@@ -30,5 +30,7 @@ mongoose.connect(process.env.DB_CONNECTION, {useNewUrlParser: true}, (err) => {
     console.log('Connect to mongoDB');
 });
 
+const port = process.env.PORT || 5000;
+app.listen(port);
 
-app.listen(3000);
+console.log(`The apps listening on ${port}`);
